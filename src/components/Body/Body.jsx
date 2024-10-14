@@ -1,8 +1,9 @@
 import { Divider } from "@mui/material";
 import Introduction from "../Introduction/Introduction";
 import Skills from "../Skills/Skills";
-import "./Body.css";
 import Experience from "../Experience/Experience";
+import Projects from "../Projects/Projects";
+import "./Body.css";
 
 const Body = () => {
   return (
@@ -12,6 +13,8 @@ const Body = () => {
       <Skills />
       <Divider className="divider" />
       <Experience />
+      <Divider className="divider" />
+      <Projects />
     </div>
   );
 };

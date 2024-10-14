@@ -20,7 +20,7 @@ const Header = () => {
             <span>Skills</span>
           </Tooltip>
         </Link>
-        <Link underline="none" color="rgba(255, 255, 255, 0.75)" href="#">
+        <Link underline="none" color="rgba(255, 255, 255, 0.75)" href="#experience">
           <Tooltip title="Experience">
             <span>Experience</span>
           </Tooltip>
