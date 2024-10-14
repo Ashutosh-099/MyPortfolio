@@ -1,0 +1,12 @@
+#root {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  background: rgb(15, 22, 36);
+  color: rgb(242, 245, 247);
+}
+
+.layout-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}

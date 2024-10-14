@@ -1,0 +1,18 @@
+.header-name {
+    font-size: 24px;
+}
+
+.header-second-container {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.header-second-container > a:hover {
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}

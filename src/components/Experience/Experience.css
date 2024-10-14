@@ -1,0 +1,14 @@
+.exp-container {
+    padding: 1rem;
+}
+
+.exp-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    width: max-content;
+    max-width: 100%;
+    margin-bottom: 16px;
+    padding: 0px;
+    background: linear-gradient(121.57deg, rgb(255, 255, 255) 18.77%, rgba(255, 255, 255, 0.66) 60.15%) text;
+}

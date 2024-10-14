@@ -1,0 +1,38 @@
+.skills-container {
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+.skills-title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    width: max-content;
+    max-width: 100%;
+    margin-bottom: 16px;
+    padding: 0px;
+    background: linear-gradient(121.57deg, rgb(255, 255, 255) 18.77%, rgba(255, 255, 255, 0.66) 60.15%) text;
+}
+
+.skills-desc {
+    max-width: 800px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #ffffff80;
+    padding-bottom: 3rem;
+}
+
+.skill-heading {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.skill-details {
+    font-size: 18px;
+    line-height: 30px;
+    color:#ffffffbf; 
+}
