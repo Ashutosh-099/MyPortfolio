@@ -1,6 +1,6 @@
 import Stack from "@mui/material/Stack";
 import Link from "@mui/material/Link";
-import { GitHub, LinkedIn } from "@mui/icons-material";
+import { GitHub, LinkedIn, Google } from "@mui/icons-material";
 import "./Header.css";
 import { Tooltip } from "@mui/material";
 
@@ -48,6 +48,15 @@ const Header = () => {
         >
           <Tooltip title="LinkedIn">
             <LinkedIn sx={{ fontSize: 44 }} />
+          </Tooltip>
+        </Link>
+        <Link
+          color="inherit"
+          href="mailto:ashutoshagarwal100@gmail.com"
+          target="_blank"
+        >
+          <Tooltip title="Google">
+            <Google sx={{ fontSize: 40 }} />
           </Tooltip>
         </Link>
       </Stack>

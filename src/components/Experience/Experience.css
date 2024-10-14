@@ -12,3 +12,12 @@
     padding: 0px;
     background: linear-gradient(121.57deg, rgb(255, 255, 255) 18.77%, rgba(255, 255, 255, 0.66) 60.15%) text;
 }
+
+.exp-list-container {
+    padding: 1.5rem;
+}
+
+.exp-list-item-heading {
+    font-size: 38px;
+    font-weight: 500;
+}
