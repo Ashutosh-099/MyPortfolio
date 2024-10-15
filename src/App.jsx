@@ -10,6 +10,7 @@ function App() {
       <Header headerData={data["header"]} />
       <Body
         introductionText={data["introduction"]["text"]}
+        resumePath={data["introduction"]["resumePath"]}
         skillsDesc={data["skills"]["description"]}
         skills={data["skills"]["skillList"]}
         experiences={data["experiences"]}

@@ -7,11 +7,11 @@ import Projects from "../Projects/Projects";
 import "./Body.css";
 
 const Body = (props) => {
-  const { introductionText, skillsDesc, skills, experiences, projects } = props;
+  const { introductionText, resumePath, skillsDesc, skills, experiences, projects } = props;
 
   return (
     <div className="body-container">
-      <Introduction introductionText={introductionText} />
+      <Introduction introductionText={introductionText} resumePath={resumePath} />
       <Divider className="divider" />
       <Skills skillsDesc={skillsDesc} skills={skills} />
       <Divider className="divider" />
@@ -24,6 +24,7 @@ const Body = (props) => {
 
 Body.propTypes = {
   introductionText: PropTypes.string.isRequired,
+  resumePath: PropTypes.string.isRequired,
   skillsDesc: PropTypes.string.isRequired,
   skills: PropTypes.array.isRequired,
   experiences: PropTypes.array.isRequired,

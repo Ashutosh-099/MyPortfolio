@@ -6,6 +6,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const ProjectCard = (props) => {
   const { projectName, projectDesc, techStack, githubLink, hostLink } = props;
 
+  console.log(githubLink);
+
   return (
     <Grid size={6} className="project-card">
       <Stack
@@ -16,7 +18,7 @@ const ProjectCard = (props) => {
         <Stack direction="row" spacing={2}>
           {githubLink && (
             <Tooltip title="Github">
-              <IconButton aria-label="github-btn">
+              <IconButton aria-label="github-btn" href={githubLink} target="_blank">
                 <GitHubIcon style={{ color: "white" }} />
               </IconButton>
             </Tooltip>

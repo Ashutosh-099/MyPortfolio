@@ -16,7 +16,7 @@ const Projects = (props) => {
             projectName={project.projectName}
             projectDesc={project.projectDesc}
             techStack={project.techStack}
-            githubLink={project.githubLink}
+            githubLink={project.gitHubLink}
             hostLink={project.hostLink}
           />
         ))}

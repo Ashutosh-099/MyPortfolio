@@ -1,18 +1,19 @@
 import PropTypes from "prop-types";
 import Stack from "@mui/material/Stack";
-import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import { ResumeButton } from "./helper";
 import "./Introduction.css";
 
-const Introduction = ({ introductionText }) => {
+const Introduction = ({ introductionText, resumePath }) => {
+  const onResumeBtnClick = () => {
+    window.open(resumePath, "_blank");
+  };
+
   return (
     <Stack direction="row" className="intro-container">
       <section className="introduction-section">
         <h2 className="greeting">Hey there👋</h2>
         <p className="intro-description">{introductionText}</p>
-        <ResumeButton startIcon={<CloudDownloadIcon fontSize="large" />}>
-          My Resume
-        </ResumeButton>
+        <ResumeButton onClick={onResumeBtnClick}>My Resume</ResumeButton>
       </section>
       <div style={{ width: "60%" }}>
         <svg
@@ -379,6 +380,7 @@ const Introduction = ({ introductionText }) => {
 
 Introduction.propTypes = {
   introductionText: PropTypes.string.isRequired,
+  resumePath: PropTypes.string.isRequired,
 };
 
 export default Introduction;
