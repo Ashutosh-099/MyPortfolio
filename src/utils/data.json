@@ -54,6 +54,16 @@
   },
   "experiences": [
     {
+      "id": "se2-maq2",
+      "role": "Software Engineer 2",
+      "companyName": "MAQ Software",
+      "fromDate": "Sept, 2022",
+      "toDate": "Present",
+      "roleDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "achievements": ["Champions of the Quarter"]
+    },
+    {
+      "id": "se2-maq1",
       "role": "Software Engineer 2",
       "companyName": "MAQ Software",
       "fromDate": "Sept, 2022",
@@ -61,13 +71,7 @@
       "roleDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-      "role": "Software Engineer 2",
-      "companyName": "MAQ Software",
-      "fromDate": "Sept, 2022",
-      "toDate": "Present",
-      "roleDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
+      "id": "se2-maq",
       "role": "Software Engineer 2",
       "companyName": "MAQ Software",
       "fromDate": "Sept, 2022",
@@ -77,6 +81,7 @@
   ],
   "projects": [
     {
+      "id": "ana-tk",
       "projectName": "AnalyticsToolkit",
       "projectDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
       "techStack": ["React", "TypeScript", "JavaScript", "C#", ".NET", "Firebase"],
@@ -84,18 +89,16 @@
       "hostLink": ""
     },
     {
+      "id": "ana-tk1",
       "projectName": "AnalyticsToolkit",
       "projectDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
-      "techStack": ["React", "TypeScript", "JavaScript", "C#", ".NET", "Firebase"],
-      "gitHubLink": "",
-      "hostLink": ""
+      "techStack": ["React", "TypeScript", "JavaScript", "C#", ".NET", "Firebase"]
     },
     {
+      "id": "ana-tk2",
       "projectName": "AnalyticsToolkit",
       "projectDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
-      "techStack": ["React", "TypeScript", "JavaScript", "C#", ".NET", "Firebase"],
-      "gitHubLink": "",
-      "hostLink": ""
+      "techStack": ["React", "TypeScript", "JavaScript", "C#", ".NET", "Firebase"]
     }
   ]
 }

@@ -7,17 +7,17 @@ import Projects from "../Projects/Projects";
 import "./Body.css";
 
 const Body = (props) => {
-  const { introductionText, skillsDesc, skills } = props;
+  const { introductionText, skillsDesc, skills, experiences, projects } = props;
 
   return (
     <div className="body-container">
       <Introduction introductionText={introductionText} />
       <Divider className="divider" />
-      <Skills skillsDesc={skillsDesc} skills={skills}/>
+      <Skills skillsDesc={skillsDesc} skills={skills} />
       <Divider className="divider" />
-      <Experience />
+      <Experience experiences={experiences} />
       <Divider className="divider" />
-      <Projects />
+      <Projects projects={projects} />
     </div>
   );
 };
@@ -25,6 +25,8 @@ const Body = (props) => {
 Body.propTypes = {
   introductionText: PropTypes.string.isRequired,
   skillsDesc: PropTypes.string.isRequired,
-  skills: PropTypes.array
+  skills: PropTypes.array.isRequired,
+  experiences: PropTypes.array.isRequired,
+  projects: PropTypes.array.isRequired,
 };
 export default Body;

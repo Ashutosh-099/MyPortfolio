@@ -1,69 +1,33 @@
+import PropTypes from "prop-types";
 import { Stack } from "@mui/material";
-import CircleIcon from "@mui/icons-material/Circle";
+import ExperienceCard from "./ExperienceCard";
 import "./Experience.css";
 
-const Experience = () => {
+const Experience = (props) => {
+  const { experiences } = props;
+
   return (
     <Stack className="exp-container" id="experience">
       <h2 className="exp-title">Experiences</h2>
       <Stack spacing={2} className="exp-list-container">
-        <div>
-          <Stack direction="row" sx={{ alignItems: "center" }} spacing={2}>
-            <CircleIcon sx={{ fontSize: 16 }} />
-            <span className="exp-list-item-heading">Software Engineer 2</span>
-            <span style={{ color: "#ffffffbf", fontSize: "22px" }}>
-              at MAQ Software
-            </span>
-          </Stack>
-          <div style={{ padding: "4px 0px 4px 32px" }}>
-            <p style={{ margin: 0 }}>Sept, 2022 - Present</p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
-        <div>
-          <Stack direction="row" sx={{ alignItems: "center" }} spacing={2}>
-            <CircleIcon sx={{ fontSize: 16 }} />
-            <span className="exp-list-item-heading">Software Engineer 2</span>
-            <span style={{ color: "#ffffffbf", fontSize: "22px" }}>
-              at MAQ Software
-            </span>
-          </Stack>
-          <div style={{ padding: "4px 0px 4px 32px" }}>
-            <p style={{ margin: 0 }}>Sept, 2022 - Present</p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
-        <div>
-          <Stack direction="row" sx={{ alignItems: "center" }} spacing={2}>
-            <CircleIcon sx={{ fontSize: 16 }} />
-            <span className="exp-list-item-heading">Software Engineer 2</span>
-            <span style={{ color: "#ffffffbf", fontSize: "22px" }}>
-              at MAQ Software
-            </span>
-          </Stack>
-          <div style={{ padding: "4px 0px 4px 32px" }}>
-            <p style={{ margin: 0 }}>Sept, 2022 - Present</p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
+        {experiences.map((experience) => (
+          <ExperienceCard
+            key={experience.id}
+            role={experience.role}
+            companyName={experience.companyName}
+            fromDate={experience.fromDate}
+            toDate={experience.toDate}
+            roleDesc={experience.roleDesc}
+            achievements={experience.achievements ?? undefined}
+          />
+        ))}
       </Stack>
     </Stack>
   );
+};
+
+Experience.propTypes = {
+  experiences: PropTypes.array.isRequired,
 };
 
 export default Experience;

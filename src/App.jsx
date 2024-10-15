@@ -12,6 +12,8 @@ function App() {
         introductionText={data["introduction"]["text"]}
         skillsDesc={data["skills"]["description"]}
         skills={data["skills"]["skillList"]}
+        experiences={data["experiences"]}
+        projects={data["projects"]}
       />
       <Footer />
     </div>
