@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Divider } from "@mui/material";
 import Introduction from "../Introduction/Introduction";
 import Skills from "../Skills/Skills";
@@ -5,12 +6,14 @@ import Experience from "../Experience/Experience";
 import Projects from "../Projects/Projects";
 import "./Body.css";
 
-const Body = () => {
+const Body = (props) => {
+  const { introductionText, skillsDesc, skills } = props;
+
   return (
     <div className="body-container">
-      <Introduction />
+      <Introduction introductionText={introductionText} />
       <Divider className="divider" />
-      <Skills />
+      <Skills skillsDesc={skillsDesc} skills={skills}/>
       <Divider className="divider" />
       <Experience />
       <Divider className="divider" />
@@ -19,4 +22,9 @@ const Body = () => {
   );
 };
 
+Body.propTypes = {
+  introductionText: PropTypes.string.isRequired,
+  skillsDesc: PropTypes.string.isRequired,
+  skills: PropTypes.array
+};
 export default Body;

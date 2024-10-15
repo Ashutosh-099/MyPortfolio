@@ -20,7 +20,7 @@
     line-height: 40px;
     font-weight: 300;
     color: #ffffff80;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .skill-heading {
@@ -28,11 +28,12 @@
     font-size: 28px;
     line-height: 32px;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .skill-details {
     font-size: 18px;
     line-height: 30px;
-    color:#ffffffbf; 
+    color:#ffffffbf;
+    margin: 0;
 }

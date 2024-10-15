@@ -1,19 +1,18 @@
+import PropTypes from "prop-types";
 import Stack from "@mui/material/Stack";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import { ResumeButton } from "./helper";
 import "./Introduction.css";
 
-const Introduction = () => {
+const Introduction = ({ introductionText }) => {
   return (
     <Stack direction="row" className="intro-container">
       <section className="introduction-section">
         <h2 className="greeting">Hey there👋</h2>
-        <p className="intro-description">
-          {
-            "I'm Ashutosh Agarwal, a 25 year old web developer, living in Mumbai, India. I'm a Computer science engineer, currently working at MAQ Software. have a look at my skills or just connect with on LinkedIn. Always exicted to meet with minded people.😊"
-          }
-        </p>
-        <ResumeButton startIcon={<CloudDownloadIcon fontSize="large" />}>My Resume</ResumeButton>
+        <p className="intro-description">{introductionText}</p>
+        <ResumeButton startIcon={<CloudDownloadIcon fontSize="large" />}>
+          My Resume
+        </ResumeButton>
       </section>
       <div style={{ width: "60%" }}>
         <svg
@@ -376,6 +375,10 @@ const Introduction = () => {
       </div>
     </Stack>
   );
+};
+
+Introduction.propTypes = {
+  introductionText: PropTypes.string.isRequired,
 };
 
 export default Introduction;
