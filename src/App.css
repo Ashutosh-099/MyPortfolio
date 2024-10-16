@@ -3,6 +3,7 @@
   font-family: "Open Sans", sans-serif;
   background: rgb(15, 22, 36);
   color: rgb(242, 245, 247);
+  scroll-behavior: smooth;
 }
 
 .layout-container {

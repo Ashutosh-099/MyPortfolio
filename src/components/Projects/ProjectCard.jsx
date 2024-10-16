@@ -18,7 +18,11 @@ const ProjectCard = (props) => {
         <Stack direction="row" spacing={2}>
           {githubLink && (
             <Tooltip title="Github">
-              <IconButton aria-label="github-btn" href={githubLink} target="_blank">
+              <IconButton
+                aria-label="github-btn"
+                href={githubLink}
+                target="_blank"
+              >
                 <GitHubIcon style={{ color: "white" }} />
               </IconButton>
             </Tooltip>

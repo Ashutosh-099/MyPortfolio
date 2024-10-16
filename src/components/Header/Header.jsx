@@ -23,7 +23,7 @@ const Header = ({ headerData }) => {
             href={`#${category.toLowerCase()}`}
             key={category}
           >
-            <Tooltip title="Skills">
+            <Tooltip title={category}>
               <span>{category}</span>
             </Tooltip>
           </Link>

@@ -100,7 +100,7 @@
       "id": "sse-maq",
       "role": "Senior Software Engineer",
       "companyName": "MAQ Software",
-      "fromDate": "Aug, 2023",
+      "fromDate": "Feb, 2024",
       "toDate": "Present",
       "roleDesc": ""
     },
@@ -109,7 +109,7 @@
       "role": "Software Engineer 2",
       "companyName": "MAQ Software",
       "fromDate": "Sept, 2022",
-      "toDate": "Aug, 2023",
+      "toDate": "Feb, 2024",
       "roleDesc": "",
       "achievements": ["Champion of the Quarter (Apr, 2023)"]
     },
@@ -117,18 +117,10 @@
       "id": "se1-maq",
       "role": "Software Engineer 1",
       "companyName": "MAQ Software",
-      "fromDate": "July, 2021",
-      "toDate": "Sept, 2022",
+      "fromDate": "Dec, 2020",
+      "toDate": "Aug, 2022",
       "roleDesc": "",
       "achievements": ["Rising star of the Quarter (June, 2022)"]
-    },
-    {
-      "id": "asc-maq",
-      "role": "Associate Software Engineer",
-      "companyName": "MAQ Software",
-      "fromDate": "Dec, 2020",
-      "toDate": "July, 2021",
-      "roleDesc": ""
     }
   ],
   "projects": [
