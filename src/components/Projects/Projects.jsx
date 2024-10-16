@@ -7,7 +7,7 @@ const Projects = (props) => {
   const { projects } = props;
 
   return (
-    <Stack className="project-container" id="skills">
+    <Stack className="project-container" id="projects">
       <h2 className="project-title">Projects</h2>
       <Grid container spacing={2} style={{ padding: "1rem" }}>
         {projects.map((project) => (

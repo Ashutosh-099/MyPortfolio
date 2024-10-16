@@ -7,7 +7,7 @@ const Experience = (props) => {
   const { experiences } = props;
 
   return (
-    <Stack className="exp-container" id="experience">
+    <Stack className="exp-container" id="experiences">
       <h2 className="exp-title">Experiences</h2>
       <Stack spacing={2} className="exp-list-container">
         {experiences.map((experience) => (
