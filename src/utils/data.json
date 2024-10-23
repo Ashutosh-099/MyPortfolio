@@ -131,6 +131,14 @@
       "techStack": ["React", "TypeScript", "Python", "Flask"],
       "gitHubLink": "https://github.com/AshutoshAgarwal99/AnalyticsToolkit",
       "hostLink": ""
+    },
+    {
+      "id": "feasto",
+      "projectName": "Feasto Food ordering system",
+      "projectDesc": "Feasto is a food ordering system template that utilizes Swiggy's data to render food items, demonstrating the application of Industrial Design principles. The primary purpose of creating this application is to showcase how to build industrial-grade applications using built-in React features and frequently used core libraries.",
+      "techStack": ["React", "JavaScript", "Tailwind CSS"],
+      "gitHubLink": "https://github.com/AshutoshAgarwal99/Feasto-Food-Ordering-System",
+      "hostLink": ""
     }
   ]
 }
